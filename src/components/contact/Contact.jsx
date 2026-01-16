@@ -12,7 +12,7 @@ import { FiInstagram } from "react-icons/fi";
 const Contact = () => {
     return (
         <main className='contact-container'>
-            <Title title="Entre em" titleSpan="Contato" />
+            <Title title="Entre em" titleSpan="Contato"/>
             <p className='text-description'>Tem algum projeto em mente? Vamos conversar!</p>
             <div className='contact-section'>
                 <div className='contact-infos'>

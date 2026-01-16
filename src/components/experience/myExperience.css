@@ -37,3 +37,24 @@
     box-shadow: 0 0 12px rgba(34, 211, 238, 0.8);
 }
 
+@media (max-width: 768px) {
+
+    .my-experience {
+        align-items: center;
+        text-align: center;
+    }
+
+    .timeline {
+        padding-left: 20px;
+    }
+
+    .experience-content-titles {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+    }
+
+    .card-experience-container {
+        padding: 1.5rem;
+    }
+}

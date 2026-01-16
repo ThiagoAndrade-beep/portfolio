@@ -95,3 +95,39 @@
     color: #0BD1F7;
     border: 1px solid #0BD1F7;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 100vh;
+    padding: 2rem 1rem;
+  }
+
+  .hero-title {
+    font-size: 48px;
+    letter-spacing: 2px;
+  }
+
+  .hero-role {
+    font-size: 22px;
+  }
+
+  .hero-description {
+    width: 100%;
+    font-size: 15px;
+    padding: 0 0.5rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+    .hero-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .icons {
+    font-size: 38px;
+  }
+}

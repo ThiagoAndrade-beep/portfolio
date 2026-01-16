@@ -9,3 +9,10 @@
     font-size: 14px;
     margin-left: 100px;
 }
+
+@media (max-width: 768px) {
+  .footer-text {
+    margin-left: 0;
+    text-align: center;
+  }
+}

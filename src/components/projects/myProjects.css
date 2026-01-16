@@ -15,3 +15,18 @@
     gap: 2.3rem;
     max-width: 1200px;
 }
+
+@media (max-width: 768px) {
+  .cards-projects {
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .card-project {
+    max-width: 100%;
+  }
+
+  .project-btn {
+    flex-direction: column;
+  }
+}
