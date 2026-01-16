@@ -76,7 +76,7 @@
 .networks-icons {
     display: flex;
     gap: 0.8rem;
-    cursor: pointer;
+    cursor: default;
 }
 
 .icon-network a {
@@ -91,11 +91,9 @@
     text-align: center;
     color: #fff;
     transition: color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-}   
-
-.icon-network a:hover {
-    transform: translateY(-2px);
-    color: #22D3EE;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    cursor: pointer;
 }
 
 .contact-form {
@@ -170,41 +168,48 @@
 }
 
 @media (max-width: 1024px) {
-  .contact-section {
-    flex-direction: column;
-    align-items: stretch;
-  }
+    .contact-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
 }
 
 @media (max-width: 768px) {
-  .contact-container .titles {
-    align-items: center;
-    text-align: center;
-  }
+    .contact-container .titles {
+        align-items: center;
+        text-align: center;
+    }
 
-  .contact-container .gradient-line {
-    margin: 0 auto;
-  }
+    .contact-container .gradient-line {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 640px) {
-  .contact-container {
-    padding: 0 1rem;
-    align-items: center;
-  }
+    .contact-container {
+        padding: 0 1rem;
+        align-items: center;
+    }
 
-  .contact-form form {
-    padding: 0;
-  }
+    .contact-form form {
+        padding: 0;
+    }
 
-  .btn-mensage {
-    width: 100%;
-  }
+    .btn-mensage {
+        width: 100%;
+    }
 }
 
 @media (hover: hover) {
-  .icon-network a:hover {
-    transform: translateY(-2px);
-    color: #22D3EE;
-  }
+    .icon-network a:hover {
+        transform: translateY(-2px);
+        color: #22D3EE;
+    }
+}
+
+@media (hover: none) {
+    .icon-network a:active {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
 }
