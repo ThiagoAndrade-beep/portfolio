@@ -202,3 +202,9 @@
   }
 }
 
+@media (hover: hover) {
+  .icon-network a:hover {
+    transform: translateY(-2px);
+    color: #22D3EE;
+  }
+}
