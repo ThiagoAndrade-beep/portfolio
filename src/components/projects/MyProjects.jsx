@@ -11,34 +11,50 @@ import catalogo from "../../assets/catalogo.png"
 
 const MyProjects = () => {
   return (
-    <main className='my-projects'>
+    <main className='my-projects' id='projects'>
         <Title title="Meus" titleSpan="Projetos"/>
         <p className='text-description'>Alguns dos projetos que desenvolvi recentemente</p>
         <div className='cards-projects'>
             <CardProjects img={multistep}
              title="Form Multistep" 
              description="Formulário multi-step em TypeScript, criado para consolidar boas práticas de componentização, tipagem forte, validação de dados e controle de estado com persistência entre etapas." 
-             skills={["Html", "Css", "JavaScript", "React", "TypeScript"]}/>
+             skills={["Html", "Css", "JavaScript", "React", "TypeScript"]}
+             linkProject="https://github.com/ThiagoAndrade-beep/form-multiStep"
+             />
             <CardProjects img={monitoringProducts} 
             title="Monitoring Products" 
             description="Aplicação full stack de monitoramento de produtos da Amazon, com login e rotas protegidas, sistema de alertas de preço e foco em segurança, organização de código e observabilidade." 
-            skills={["React", "NodeJs", "ApiREST", "MongoDB", "JWT", "Observabilidade"]}/>
+            skills={["React", "NodeJs", "ApiREST", "MongoDB", "JWT", "Observabilidade"]}
+            linkProject="https://github.com/ThiagoAndrade-beep/monitoring-products"
+            />
             <CardProjects img={eduSystem} 
             title="Edu System" 
             description="Sistema full stack de gerenciamento escolar, focado no CRUD completo de alunos, permitindo criar, listar, atualizar e remover registros de forma organizada e eficiente." 
-            skills={["React", "NodeJs", "ApiREST", "MongoDB"]}/>
+            skills={["React", "NodeJs", "ApiREST", "MongoDB"]}
+            linkDemo="https://edu-system-beta.vercel.app/"
+            linkProject="https://github.com/ThiagoAndrade-beep/Edu-System"
+            />
             <CardProjects img={carteiraApp} 
             title="CarteiraApp" 
             description="Aplicação de gerenciamento financeiro desenvolvida para controle de gastos pessoais, permitindo registrar um saldo inicial, adicionar despesas e acompanhar a redução do valor disponível, auxiliando na organização e consciência financeira" 
-            skills={["JavaScript", "React", "Req.Http", "Backend"]}/>
+            skills={["JavaScript", "React", "Req.Http", "Backend"]}
+            linkDemo="https://carteira-app-finance.vercel.app/"
+            linkProject="https://github.com/ThiagoAndrade-beep/carteira-app"
+            />
             <CardProjects img={gameSphere} 
             title="GameSphere" 
             description="Aplicação em React que simula uma loja de games com carrinho de compras, permitindo adicionar e remover produtos, além da atualização automática dos preços em tempo real, com foco em gerenciamento de estado e experiência do usuário" 
-            skills={["Html", "Css", "JavaScript", "React"]}/>
+            skills={["Html", "Css", "JavaScript", "React"]}
+            linkDemo="https://game-sphere-nu.vercel.app/"
+            linkProject="https://github.com/ThiagoAndrade-beep/game-sphere"
+            />
             <CardProjects img={catalogo} 
             title="Catálogo de Filmes" 
             description="Aplicação front-end desenvolvida com HTML, CSS e JavaScript, que consome uma API para exibição de filmes em destaque, mais bem avaliados e lançamentos, contando também com autenticação via Local Storage." 
-            skills={["Html", "Css", "JavaScript", "Api"]}/>
+            skills={["Html", "Css", "JavaScript", "Api"]}
+            linkDemo="https://catalogo-de-filmes-silk.vercel.app/"
+            linkProject="https://github.com/ThiagoAndrade-beep/catalogo-de-filmes"
+            />
         </div>
     </main>
   )

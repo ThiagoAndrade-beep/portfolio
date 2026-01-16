@@ -11,7 +11,7 @@ import { FiInstagram } from "react-icons/fi";
 
 const Contact = () => {
     return (
-        <main className='contact-container'>
+        <main className='contact-container' id='contact'>
             <Title title="Entre em" titleSpan="Contato"/>
             <p className='text-description'>Tem algum projeto em mente? Vamos conversar!</p>
             <div className='contact-section'>
@@ -43,9 +43,9 @@ const Contact = () => {
                     <div className='info-card-networks'>
                         <h4>Redes Sociais</h4>
                         <div className='networks-icons'>
-                            <div className='icon-network'><VscGithubAlt size={20}/></div>
-                            <div className='icon-network'><FiLinkedin size={20}/></div>
-                            <div className='icon-network'><FiInstagram size={20}/></div>
+                            <div className='icon-network'><a href="https://github.com/ThiagoAndrade-beep/" target='blank'> <VscGithubAlt size={20}/></a></div>
+                            <div className='icon-network'><a href="https://www.linkedin.com/in/thiagoandrade-dev/" target='blank'><FiLinkedin size={20}/></a> </div>
+                            <div className='icon-network'><a href="https://www.instagram.com/thiagoandrade_007/" target='blank'><FiInstagram size={20}/></a></div>
                         </div>
                     </div>
                 </div>
