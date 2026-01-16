@@ -1,0 +1,27 @@
+.card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: #202328;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    flex: 1;
+}
+
+.card-about h3 {
+    background: linear-gradient(90deg, #22D3EE, #6366F1, #A855F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-about p {
+    text-align: center;
+    color: #A1A8B3;
+    font-weight: 400;
+    font-size: 14px;
+}

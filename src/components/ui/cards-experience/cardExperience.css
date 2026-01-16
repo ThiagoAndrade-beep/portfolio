@@ -1,0 +1,61 @@
+.card-experience-container {
+    background-color: #202328;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 800px;
+}
+
+.card-experience-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.card-experience-content h4 {
+    color: #fff;
+}
+
+.experience-content-titles {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+}
+
+.experience-content-titles h2 {
+    color: #fff;
+}
+
+.experience-content-titles p {
+    color: #0BD1F7;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.name-enterprise {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #A1A8B3;
+}
+
+.experience-description {
+    color: #A1A8B3;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.achievements p {
+    color: #A1A8B3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}

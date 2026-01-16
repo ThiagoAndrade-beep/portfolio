@@ -1,0 +1,57 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #fff;
+    white-space: nowrap;
+}
+
+
+/*variant project*/
+.btn.projects {
+    background: linear-gradient(90deg, #22D3EE, #A855F7);
+    padding: 0.9rem 2.7rem;
+    letter-spacing: 0.5px;
+}
+
+.btn.btn.projects:hover {
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+    transform: scale(1.10) translateY(-2px);
+    box-shadow: 8px 0px 24px rgba(0, 200, 255, 0.4);
+}
+
+/*variant project*/
+.btn.contact {
+    background-color: #111827;
+    border: 1px solid #1F2937;
+    padding: 0.9rem 2.7rem;
+    letter-spacing: 0.2px;
+}
+
+.btn.contact:hover {
+    border: 1px solid #22D3EE;
+    color: #22D3EE;
+}
+
+/*variant view demo*/
+.btn.view-demo {
+    background-color: #0BD1F7;
+    padding: 0.7rem 2.7rem;
+    letter-spacing: 0.2px;
+    color: #000;
+}
+
+/*variant view project*/
+.btn.view-project {
+    background-color: #111827;
+    border: 1px solid #1F2937;
+    padding: 0.7rem 2.7rem;
+    letter-spacing: 0.2px;
+}

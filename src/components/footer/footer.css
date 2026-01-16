@@ -1,0 +1,11 @@
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-text {
+    color: #9AA0AA;
+    font-size: 14px;
+    margin-left: 100px;
+}

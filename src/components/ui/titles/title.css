@@ -1,0 +1,21 @@
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 25px;
+    color: #fff;
+}
+
+.title-span {
+    background: linear-gradient(90deg, #22D3EE, #6366F1, #A855F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-line {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #22D3EE, #A855F7);
+    border-radius: 8px;
+}
