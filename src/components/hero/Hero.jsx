@@ -39,8 +39,8 @@ const Hero = () => {
                 </div>
 
                 <div className='hero-social'>
-                    <a href="https://github.com/ThiagoAndrade-beep" target='blank'><VscGithubAlt className='icons gitHub' /></a>
-                    <a href="https://www.linkedin.com/in/thiagoandrade-dev/" target='blank'><FiLinkedin className='icons linkedin' /></a>
+                    <a href="https://github.com/ThiagoAndrade-beep" ><VscGithubAlt className='icons gitHub' rel='noopener noreferrer'/></a>
+                    <a href="https://www.linkedin.com/in/thiagoandrade-dev/" rel='noopener noreferrer'><FiLinkedin className='icons linkedin' /></a>
                 </div>
             </div>
         </main>
