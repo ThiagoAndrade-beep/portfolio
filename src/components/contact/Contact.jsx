@@ -43,9 +43,9 @@ const Contact = () => {
                     <div className='info-card-networks'>
                         <h4>Redes Sociais</h4>
                         <div className='networks-icons'>
-                            <div className='icon-network'><a href="https://github.com/ThiagoAndrade-beep/" target='blank'> <VscGithubAlt size={26}/></a></div>
-                            <div className='icon-network'><a href="https://www.linkedin.com/in/thiagoandrade-dev/" target='blank'><FiLinkedin size={26}/></a> </div>
-                            <div className='icon-network'><a href="https://www.instagram.com/thiagoandrade_007/" target='blank'><FiInstagram size={26}/></a></div>
+                            <div className='icon-network'><a href="https://github.com/ThiagoAndrade-beep/" rel='noopener noreferrer'> <VscGithubAlt size={26}/></a></div>
+                            <div className='icon-network'><a href="https://www.linkedin.com/in/thiagoandrade-dev/" rel='noopener noreferrer'><FiLinkedin size={26}/></a> </div>
+                            <div className='icon-network'><a href="https://www.instagram.com/thiagoandrade_007/" rel='noopener noreferrer'><FiInstagram size={26}/></a></div>
                         </div>
                     </div>
                 </div>
