@@ -76,8 +76,13 @@
 }
 
 .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
-    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    font-size: 26px;
     padding: 10px;
     background-color: #1a2332;
     border-radius: 50px;
